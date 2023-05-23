@@ -10,7 +10,6 @@ app.use (express.static('public'));
 
 
 app.get ('/', (req,res) => {
-    console.log("index")
     res.sendFile(__dirname + '/index.html')
 })
 

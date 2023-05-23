@@ -1,0 +1,126 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+  html{
+    scroll-behavior: smooth;
+  }
+  /* Global styles */
+  body {
+    font-family: "Signika Negative", sans-serif;
+    font-weight: light;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  
+  header h1 {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    vertical-align:middle;
+    display: inline;
+    color: #2058c8;
+  }
+  #hero {
+    background-image: linear-gradient(#2058c8,#92abd9);
+    padding: 100px;
+    text-align: center;
+  }
+  #hero h1 {
+    color: #f2f2f2;
+    font-weight: 700;
+  }
+  #hero h2 {
+    color: #f2f2f2;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  #hero p {
+    color: #f2f2f2;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .jumbotron{
+    background-color: transparent;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f00;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff9933;
+  }
+  
+  #about {
+    padding: 80px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #about h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  #services {
+    padding: 60px;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  #services h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  #services ul {
+    list-style-type: none;
+  }
+  
+  #services li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #contact {
+    padding: 60px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #contact h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
